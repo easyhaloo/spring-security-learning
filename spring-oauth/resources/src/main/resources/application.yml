@@ -1,0 +1,8 @@
+server:
+  port: 1003
+logging:
+  level:
+    org.springframework: debug
+
+
+

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: "client"
+
+server:
+  port: 1004
+
+security:
+  user:
+    name: haloo
+    password: 123456
