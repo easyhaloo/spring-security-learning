@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth" />
         <module name="client" />
+        <module name="implicit" />
         <module name="resources" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth" target="1.8" />
       <module name="client" target="1.8" />
+      <module name="implicit" target="1.8" />
       <module name="resources" target="1.8" />
       <module name="spring-oauth" target="1.8" />
     </bytecodeTargetLevel>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth" options="-parameters" />
       <module name="client" options="-parameters" />
+      <module name="implicit" options="-parameters" />
       <module name="resources" options="-parameters" />
     </option>
   </component>

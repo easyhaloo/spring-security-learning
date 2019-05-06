@@ -1,0 +1,15 @@
+server:
+  port: 1005
+
+spring:
+  application:
+    name: implicit-server
+
+  security:
+    user:
+      name: haloo
+      password: 123456
+
+logging:
+  level:
+    org.springframework: debug

@@ -26,7 +26,7 @@ public class ResourceConfig extends ResourceServerConfigurerAdapter {
 
     public ResourceServerTokenServices resourceServerTokenServices() {
         RemoteTokenServices resourceServerTokenServices = new RemoteTokenServices();
-        resourceServerTokenServices.setCheckTokenEndpointUrl("http://localhost:1002/oauth/check_token");
+        resourceServerTokenServices.setCheckTokenEndpointUrl("http://localhost:1005/oauth/check_token");
         resourceServerTokenServices.setClientId("haloo");
         resourceServerTokenServices.setClientSecret("123456");
         return resourceServerTokenServices;
